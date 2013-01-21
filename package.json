@@ -1,0 +1,25 @@
+{
+  "name": "node-htmlencode",
+  "version": "0.0.1",
+  "description": "Wrapped version of http://www.strictly-software.com/htmlencode",
+  "main": "index.js",
+  "scripts": {
+    "test": "env mocha"
+  },
+  "repository": "",
+  "keywords": [
+    "html",
+    "encode",
+    "decode"
+  ],
+  "author": "Dan MacTough <danmactough@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1"
+  },
+  "readmeFilename": "README.md",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
+}
