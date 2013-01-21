@@ -1,6 +1,6 @@
 {
-  "name": "node-htmlencode",
-  "version": "0.0.2",
+  "name": "htmlencode",
+  "version": "0.0.3",
   "description": "Wrapped version of http://www.strictly-software.com/htmlencode",
   "main": "index.js",
   "scripts": {
