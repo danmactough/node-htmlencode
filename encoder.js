@@ -25,6 +25,10 @@
  * Revision:
  *  2012-09-23, Alex Oss: 
  *		 - replaced string concatonation in numEncode with string builder, push and join for peformance with ammendments by Rob Reid
+ *
+ * Revision:
+ * 2013-01-21, Dan MacTough:
+ * 		 - renamed Encoder to module.exports; fixed leaking global in htmlDecode
  */
 
 // Encoder = {

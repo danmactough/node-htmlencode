@@ -1,3 +1,9 @@
+/*!
+ * node-htmlencode - Wrapped version of http://www.strictly-software.com/htmlencode
+ * Copyright(c) 2013 Dan MacTough <danmactough@gmail.com>
+ * All rights reserved.
+ */
+
 var htmlencode = require('./encoder')
   , extend = require('util')._extend;
 
