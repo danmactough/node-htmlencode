@@ -1,12 +1,17 @@
 {
   "name": "htmlencode",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Wrapped version of http://www.strictly-software.com/htmlencode",
   "main": "index.js",
   "scripts": {
     "test": "env mocha"
   },
-  "repository": "",
+  "homepage": "https://github.com/danmactough/node-htmlencode",
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "git://github.com/danmactough/node-htmlencode.git"
+  },
   "keywords": [
     "html",
     "encode",
