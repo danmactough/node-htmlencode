@@ -1,5 +1,7 @@
 # node-htmlencode
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/danmactough/node-htmlencode.svg)](https://greenkeeper.io/)
+
 A wrapped version of http://www.strictly-software.com/htmlencode library --
 only two changes to the original:
 
