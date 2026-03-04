@@ -39,7 +39,7 @@ module.exports = {
 
 	isEmpty : function(val){
 		if(val){
-			return ((val===null) || val.length==0 || /^\s+$/.test(val));
+			return ((val===null) || val.length==0;
 		}else{
 			return true;
 		}
