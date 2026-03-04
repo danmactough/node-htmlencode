@@ -4,14 +4,13 @@
  * All rights reserved.
  */
 
-var htmlencode = require('./encoder')
-  , extend = require('util')._extend;
+var htmlencode = require('./encoder');
 
 var Encoder = function (type) {
   if (type) this.EncodeType = type;
   return this;
 };
-extend(Encoder.prototype, htmlencode);
+Object.assign(Encoder.prototype, htmlencode);
 
 var it = new Encoder();
 
